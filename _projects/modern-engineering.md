@@ -1,0 +1,26 @@
+---
+title: Modern Engineering Textbook
+date: 2016-04-20 00:00:00 +0000
+categories: []
+description: 'Computer-Based Training for Cogntive Behavioural Therapy: An Addictions
+  Program for Canada'
+thumbnail: "/uploads/2017/11/16/modern-engineering.png"
+sub-title: A post-modern taking on Engineering in the Digital World
+tags:
+- engineering
+- research
+slug: ''
+layout: text
+---
+
+## Overview
+
+Resident Professors Murphy Tiernan and Kelly Brewer have collaborated over the last 3 years with leading professionals in the continental US to develop a modern curriculum for Engineering students.
+
+## Editions
+
+* Edition One - 2016
+
+* Edition Two - 2017
+
+Browse all editions of Modern Engineering on the [publications page](/publications/ "Go to Publications").
