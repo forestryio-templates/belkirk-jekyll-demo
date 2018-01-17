@@ -1,0 +1,167 @@
+nav {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
+.main-nav {
+	ul {
+		float: right;
+		margin-top: 14px;
+	}
+
+	li {
+		float: left;
+		margin: 0;
+		margin-left: 30px;
+
+		a {
+			color: $font-dark;
+			padding: 3px 12px;
+			display: inline-block;
+			letter-spacing: 1px;
+			transition: color .4s ease;
+
+			.fa {
+					font-size: 10px;
+					vertical-align: top;
+					margin-top: 6px;
+					margin-left: 5px;
+					margin-right: -10px;
+					width: 11px;
+			}
+		}
+	}
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.side-nav {
+	margin-top: 5px;
+	padding: 20px 20px 20px 0;
+
+	a {
+		display: block;
+	}
+}
+
+.breadcrumbs {
+	border-top: $thin-line;
+	overflow: auto;
+	background: #f8f8f8;
+	margin-bottom: 40px;
+
+	ul {
+		float: left;
+		margin-top: 0;
+
+		li {
+			line-height: 50px;
+			float: left;
+			margin-right: 7px;
+            font-size: 14px;
+            font-weight: 300;
+
+			a {
+				color: $font-special;
+			}
+
+			i {
+                margin-left: 5px;
+                color: lighten($font-special, 40%);
+                font-size: 7px;
+                margin-top: -4px;
+                top: -2px;
+                position: relative;
+			}
+		}
+	}
+}
+
+// dropdown main nav from http://ermauliks.github.io/2014/04/21/multilevel-navigation-using-jekyll/
+.navigation {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    list-style-type:none;
+}
+.navigation li {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.navigation li a {
+    color: #333;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 0;
+    padding: 5px;
+    display: block;
+    white-space: nowrap;
+    line-height:25px;
+}
+.navigation ul li a {
+    border-radius: 0;
+    padding: 5px 10px;
+    text-transform: initial;
+}
+.navigation li > ul {
+    background:white;
+    position:absolute;
+    list-style-type: none;
+    top: 30px;
+    padding-top: 5px !important;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 3px 3px;
+    left:0;
+    display: none;
+    min-width: 100%;
+    z-index: 999;
+		border: 1px solid rgba($brand-color, 0.2);
+		border-top: 0;
+		top: 65px;
+}
+.navigation li:hover > ul {
+    // display: block;
+    list-style: none;
+}
+.navigation li ul li {
+    display: block;
+    float: none;
+    margin-left: 0;
+
+    &:last-child {
+    	border-radius: 0 0 3px 3px;
+    	overflow: hidden;
+    }
+
+    a {
+    	padding: 10px 15px;
+    }
+}
+.navigation li ul li a:hover {
+    color: $link-color;
+    background: #f9f9f9;
+}
+.navigation li.current > a {
+    color: $link-color;
+    border-bottom: 2px solid $link-color;
+}
+.navigation > li > a:hover {
+  color: $link-color;
+}
+.navigation li.current > a {
+    font-weight: bold
+}
+.navigation .second-level {
+    left: 100%;
+    top: 0;
+}

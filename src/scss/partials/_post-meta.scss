@@ -1,0 +1,33 @@
+.meta {
+	overflow: hidden;
+
+	.post-date {
+		float: left;
+		margin-right: 10px;
+		font-size: 12px;
+	}
+
+	.meta-separator {
+		float: left;
+		margin-right: 10px;
+	}
+
+	.tags-list {
+		float: left;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			float: left;
+			margin-right: 10px;
+
+			a {
+				font-size: 12px;
+				text-decoration: none;
+				display: inline-block;
+				text-transform: capitalize;
+			}
+		}
+	}
+}

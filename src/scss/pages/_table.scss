@@ -1,0 +1,143 @@
+
+// Search box
+.dataTables_filter {
+	position: relative;
+  float: right;
+
+	input {
+		border:  1px solid rgba($font-special, .3);
+    border-radius: 20px;
+    width: 100%;
+    width: 260px;
+    margin: 0 0 10px 0;
+    padding: 5px 35px 5px 20px;
+    line-height: 1.5em;
+    font-size: 14px;
+
+		&:focus {
+			border-color: rgba($font-special, .6);
+		}
+	}
+
+	label {
+		&:after {
+			font-family: FontAwesome;
+			content: "\f002";
+			font-style: normal;
+			font-weight: normal;
+			speak: none;
+			display: inline-block;
+			text-decoration: inherit;
+			text-align: center;
+			font-variant: normal;
+			text-transform: none;
+			color: #1e405d;
+			right: 10px;
+		  top: 4px;
+			position: absolute;
+			font-size: 20px;
+			color: rgba($font-special, .5);
+		}
+
+		&.focus:after {
+			color: rgba($font-special, .8);
+		}
+	}
+}
+
+.table-layout {
+  table {
+    border-radius: 3px;
+    overflow: hidden;
+    text-align: left;
+    border: 1px solid #eee;
+		border-collapse: initial;
+    width: 100%;
+
+    thead {
+      background: #f4f4f4;
+
+			th {
+				color: $font-special;
+
+				.fa:after {
+					content: "\f107";
+					font-size: 12px;
+					vertical-align: middle;
+				}
+
+				&.headerSortDown {
+					.fa:after {
+						content: "\f106";
+					}
+				}
+
+				&:hover {
+					background: #eee;
+				}
+			}
+    }
+
+    td,th {
+      padding: 16px;
+    }
+
+		tr {
+		  border-bottom: 1px solid #eee;
+
+			td {
+				padding: 15px;
+				font-size: 14px;
+				color: rgba($font-special, 0.5);
+				white-space: nowrap;
+
+				a {
+					text-decoration: none;
+					font-weight: 700;
+					color: $font-special;
+
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+
+				&:first-child {
+					font-size: 16px;
+					white-space: normal;
+				}
+			}
+
+		}
+
+		tbody tr:hover {
+			background: rgba($font-special, 0.03);
+			cursor: pointer;
+
+			a {
+				text-decoration: underline;
+			}
+		}
+  }
+}
+
+.dataTables_paginate  {
+	margin-top: 2em;
+}
+
+.paginate_button {
+	display: inline-block;
+	padding: 5px 10px;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&.current {
+		background: lighten(#30343F, 75%);
+	}
+
+	&.next, &.previous {
+		color: lighten(#30343F, 25%);
+	}
+}

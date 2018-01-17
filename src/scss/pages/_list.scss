@@ -1,0 +1,22 @@
+.list-layout {
+	border-bottom: $thin-line;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+
+	h2 {
+		a {
+			color: $font-special;
+			text-decoration: none;
+		}
+		margin: 0;
+	}
+
+	date {
+		font-size: 14px;
+		color: rgba($font-special, 0.5);
+	}
+}

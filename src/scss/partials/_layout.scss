@@ -1,0 +1,18 @@
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+
+	@media #{$screen-xl}  {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	@media #{$screen-lg}  {
+		margin: 0 2em;
+	}
+	@media #{$screen-md}  {
+		margin: 0 2em;
+	}
+	@media #{$screen-sm}  {
+		margin: 0 2em;
+	}
+}

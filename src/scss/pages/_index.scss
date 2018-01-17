@@ -1,0 +1,137 @@
+.main-message {
+	text-align: center;
+	padding: 30px 0;
+	background: #f4f4f4;
+	color: $font-special;
+
+	p {
+		font-size: 22px;
+		font-weight: 300;
+		line-height: 1.5em;
+	}
+}
+
+.about {
+	padding: 40px 0;
+}
+
+.contact {
+	margin-bottom: -60px;
+}
+
+.services {
+	text-align: center;
+	padding: 40px 0;
+	color: $font-special;
+
+	h2 {
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	.service-icon img {
+		width: 70px;
+	}
+
+	p {
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 400;
+		line-height: 1.3em;
+	}
+}
+
+.feature {
+	background: url("../images/background-image.jpg");
+	background-size: cover;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 60px 0;
+	height: 400px;
+
+	h2 {
+		font-size: 40px;
+		color: white;
+		font-weight: 700;
+	}
+
+	p {
+		font-size: 30px;
+		color: rgba(255,255,255,0.7);
+		font-weight: 400;
+	}
+}
+
+.news-twitter {
+	background: #f4f4f4;
+	color: $font-special;
+	padding: 50px 0;
+
+	h2 {
+		font-weight: 700;
+	}
+
+	.container > div {
+		&:last-child {
+			border-left: 1px solid #ddd;
+		}
+	}
+
+	.col-wrap {
+		padding: 0 50px;
+	}
+
+	.posts {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 40px;
+
+		li {
+			margin-bottom: 1.5em;
+
+			a {
+				text-decoration: none;
+				color: $font-special;
+				font-size: 18px;
+			}
+
+			date {
+				display: block;
+				font-size: 14px;
+				color: rgba($font-special, 0.5);
+			}
+		}
+	}
+
+	a.button-outline {
+		i {
+			font-size: 10px;
+		}
+	}
+}
+
+.partners {
+	margin: 60px 200px;
+
+	.container {
+		max-width: 800px;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 22px;
+		font-weight: 700;
+		color: $font-special;
+		margin-bottom: 60px;
+	}
+
+	.flexslider .slides {
+		@extend %flex-parent;
+	}
+
+	@media (max-width: 1024px) {
+  	margin: 60px auto;
+  }
+}

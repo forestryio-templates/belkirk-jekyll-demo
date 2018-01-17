@@ -1,0 +1,93 @@
+%flex-parent {
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	align-items: center;
+}
+
+%flex-child {
+	-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-flex: 1;         /* OLD - Firefox 19- */
+	-webkit-flex: 1;          /* Chrome */
+	-ms-flex: 1;              /* IE 10 */
+	flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+@mixin flex-direction($flex-value) {
+	-webkit-box-direction: normal; // These might cause problems
+	-webkit-box-orient: horizontal;// These might cause problems
+	-webkit-flex-direction: $flex-value;
+	-moz-flex-direction: $flex-value;
+	-ms-flex-direction: $flex-value;
+	flex-direction: $flex-value;
+}
+
+@mixin flex-wrap($flex-value) {
+  -webkit-flex-wrap: $flex-value;
+  -moz-flex-wrap: $flex-value;
+  -ms-flex-wrap: $flex-value;
+  flex-wrap: $flex-value;
+}
+
+@mixin flex-wrap($flex-value) {
+	-webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+@mixin flex-justify($flex-value) {
+  -webkit-box-pack: $flex-value;
+  -ms-flex-pack: $flex-value;
+  @if $flex-value == 'flex-end' {
+    -ms-flex-pack: end;
+  }
+  @if $flex-value == 'flex-start' {
+    -ms-flex-pack: start;
+  }
+  @if $flex-value == 'center' {
+    -ms-flex-pack: center;
+  }
+  -webkit-justify-content: $flex-value;
+  -moz-justify-content: $flex-value;
+  justify-content: $flex-value;
+}
+
+@mixin flex-align-items($flex-value) {
+  -webkit-box-align: $flex-value;
+  -ms-flex-align: $flex-value;
+  -webkit-align-items: $flex-value;
+  -moz-align-items: $flex-value;
+  align-items: $flex-value;
+}
+
+@mixin flex-align-content($flex-value) {
+  -webkit-align-content: $flex-value;
+  -moz-align-content: $flex-value;
+  -ms-flex-line-pack: $flex-value;
+  align-content: $flex-value;
+}
+
+@mixin flex-grow($flex-value) {
+	-webkit-box-flex: $flex-value;
+	-webkit-flex-grow: $flex-value;
+	-moz-flex-grow: $flex-value;
+	-ms-flex-positive: $flex-value;
+	flex-grow: $flex-value;
+}
+
+@mixin flex-shrink($flex-value) {
+  -webkit-flex-shrink: $flex-value;
+  -moz-flex-shrink: $flex-value;
+  -ms-flex-negative: $flex-value;
+  flex-shrink: $flex-value;
+}
+
+@mixin flex-basis($flex-value) {
+  -webkit-flex-basis: $flex-value;
+  -moz-flex-basis: $flex-value;
+  -ms-flex-preferred-size: $flex-value;
+  flex-basis: $flex-value;
+}
