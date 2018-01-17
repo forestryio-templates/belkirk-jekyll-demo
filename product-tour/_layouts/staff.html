@@ -1,0 +1,34 @@
+---
+layout: default-wide
+---
+
+<div class="column-list-layout">
+  {% for type in page.departments %}
+  {% assign selection = site.data.departments[type] %}
+  {% assign department = selection %}
+  {% assign people = site.people | where:"role",type %}
+	<h2 class="section-heading">{{ department }}</h2>
+	<div class="pure-g">
+	{% for person in people %}
+		<div class="pure-u-1 pure-u-md-1-4">
+			<div class="post">
+				<div class="post-header">
+				{% if person.thumbnail and person.thumbnail != "" %}
+				  <img src="{{ person.thumbnail | absolute_url }}" alt="{{ person.title }}">
+				{% else %}
+					<img src="{{ "/images/placeholder.png" | absolute_url }} alt="{{ person.title }}">
+				{% endif %}
+				</div>
+				<div class="post-body">
+					<h3><a href="{{ person.url | absolute_url }}">{{ person.title }}</a></h3>
+					{% if person.sub-title and page.sub-title != "" %}
+						<div class="subtitle">{{ person.sub-title }}</div>
+					{% endif %}
+					<p>{{ person.content | truncatewords: 25, "...<br /><br /> Continue reading →" }}</p>
+				</div>
+			</div>
+		</div>
+  {% endfor %}
+  </div>
+  {% endfor %}
+</div>

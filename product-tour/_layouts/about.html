@@ -1,0 +1,54 @@
+{% include header.html %}
+{% include head.html %}
+{% include hero.html heading=page.heading sub_heading=page.sub_heading description=page.description button=page.hero_button %}
+<section class="about">
+  <div class="container pure-g">
+    <div class="pure-u-1">
+      <div class="content content-narrow">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="column-list-layout">
+  <div class="container pure-g">
+      <div class="pure-u-1">
+        <div class="content">
+          <h2 class="section-heading">Belkirk Staff</h2>
+          <div class="pure-g">
+            {% assign people = site.people | where:"role","staff" %}
+            {% for person in people %}
+            <div class="pure-u-1 pure-u-md-1-4">
+              <div class="post">
+                <div class="post-header">
+                {% if person.thumbnail and person.thumbnail != "" %}
+                  <img src="{{ person.thumbnail | absolute_url }}" alt="{{ person.title }}">
+                {% else %}
+                  <img src="{{ "/images/placeholder.png" | absolute_url }} alt="{{ person.title }}">
+                {% endif %}
+                </div>
+                <div class="post-body">
+                  <h3><a href="{{ person.url | absolute_url }}">{{ person.title }}</a></h3>
+                  {% if person.sub-title and page.sub-title != "" %}
+                    <div class="subtitle">{{ person.sub-title }}</div>
+                  {% endif %}
+                  <p>{{ person.content | truncatewords: 25, "...<br /><br /> Continue reading →" }}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="contact main-message">
+    <div class="container pure-g">
+      <div class="pure-u-1 pure-u-md-1">
+        <div class="content content-narrow">
+          <p><a href="{{ "/contact/" | absolute_url }}" class="button-outline pure-button">Contact Us <i class="fa fa-chevron-right"></i></a></p>            
+        </div>
+      </div>
+    </div>
+  </section>
+{% include footer.html %}
