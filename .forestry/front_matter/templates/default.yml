@@ -1,0 +1,24 @@
+---
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  description: A short description of the page
+  config:
+    required: true
+- type: datetime
+  name: publish_date
+  label: Publish Date
+  config:
+    required: true
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: post

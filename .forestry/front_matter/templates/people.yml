@@ -1,0 +1,45 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Name
+- name: sub-title
+  label: Sub title
+  type: text
+  hidden: false
+  default: ''
+- type: file
+  label: Thumbnail
+  name: thumbnail
+  description: 'Square image, Max 500 pixels '
+- name: role
+  label: Departments
+  type: list
+  hidden: false
+  default: []
+  description: ''
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - staff
+    - board
+    - advisor
+    - partner
+- name: email
+  label: Email
+  type: text
+  hidden: false
+  default: ''
+- name: linkedin
+  label: Linkedin
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: person
