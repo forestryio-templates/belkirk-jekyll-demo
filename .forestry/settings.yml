@@ -7,11 +7,11 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 collections:
+  _publications:
+    default_front_matter_template: publications
   _projects:
     default_front_matter_template: projects
   _people:
     default_front_matter_template: people
-  _publications:
-    default_front_matter_template: publications
   _posts:
     default_front_matter_template: posts
