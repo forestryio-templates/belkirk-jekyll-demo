@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-18T11:43:38-04:00</updated><id>/</id><title type="html">Belkirk College of Engineering</title><subtitle>The Forestry.io Prouct Tour Demo</subtitle><entry><title type="html">Welcome to the Forestry Demo Site!</title><link href="/jekyll/2017/09/25/introduction.html" rel="alternate" type="text/html" title="Welcome to the Forestry Demo Site!" /><published>2017-09-25T06:09:13-03:00</published><updated>2017-09-25T06:09:13-03:00</updated><id>/jekyll/2017/09/25/introduction</id><content type="html" xml:base="/jekyll/2017/09/25/introduction.html">&lt;p&gt;Welcome to the Belkirk College of Engineering Demo Site!&lt;/p&gt;
+
+&lt;p&gt;This site allows you to explore Forestry’s features and functionality, and is &lt;strong&gt;not&lt;/strong&gt; meant to be used as a production website. To get started building your own site, please see our &lt;a href=&quot;https://forestry.io/docs/getting-started/intro/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thank you for choosing to demo Forestry!&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to the Belkirk College of Engineering Demo Site!</summary></entry><entry><title type="html">Exploring Forestry</title><link href="/jekyll/2017/09/25/exploring.html" rel="alternate" type="text/html" title="Exploring Forestry" /><published>2017-09-25T06:09:13-03:00</published><updated>2017-09-25T06:09:13-03:00</updated><id>/jekyll/2017/09/25/exploring</id><content type="html" xml:base="/jekyll/2017/09/25/exploring.html">&lt;p&gt;Belkirk facilitates showing off many features of Forestry. The following walks you through the Belkirk site, and explains where to go for documentation on each feature!&lt;/p&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Belkirk is a static site built using one of the static site generators that Forestry supports – Jekyll.&lt;/p&gt;
+
+&lt;p&gt;For more information on Jekyll, check out the docs!&lt;/p&gt;
+
+&lt;h2 id=&quot;content-management&quot;&gt;Content Management&lt;/h2&gt;
+&lt;p&gt;Belkirk has five types of content, seen in the sidebar:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Pages&lt;/strong&gt;: one-off pages with a single purpose&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;People&lt;/strong&gt;: a collection of content to be used on &lt;a href=&quot;/about/people/&quot;&gt;Staff pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Posts&lt;/strong&gt;: a collection of &lt;a href=&quot;/posts/&quot;&gt;blog posts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Projects&lt;/strong&gt;: a collection of &lt;a href=&quot;/projects/&quot;&gt;project&lt;/a&gt; pages&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Publications&lt;/strong&gt;: a collection of content used on the &lt;a href=&quot;/publications/&quot;&gt;publications page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To learn how content management with Forestry, see the &lt;a href=&quot;https://forestry.io/docs/managing-content/managing-content/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;editing-content&quot;&gt;Editing Content&lt;/h2&gt;
+&lt;p&gt;Forestry has a fully-featured visual editor for Markdown and a rich interface for editing Front Matter.&lt;/p&gt;
+
+&lt;p&gt;To learn more about editing with Forestry, see the &lt;a href=&quot;https://forestry.io/docs/managing-content/editing-content/&quot;&gt;documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;menus&quot;&gt;Menus&lt;/h2&gt;
+&lt;p&gt;Forestry supports creating custom menus for navigation in your sites. The Belkirk has three menus available:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Navigation&lt;/strong&gt;: the main navigation of the website&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Footer&lt;/strong&gt;: a group of sitemap-style footer links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;media&quot;&gt;Media&lt;/h2&gt;
+&lt;p&gt;Forestry has a Media Library that supports the management of media files (Images, PDFs, code samples, and much more) from an uploads folder in your repository.&lt;/p&gt;
+
+&lt;p&gt;By default this is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;/uploads/:year:/:month:/:day:/&lt;/code&gt;, and is configurable from Site Settings.&lt;/p&gt;
+
+&lt;p&gt;To learn how to configure and use the Media Library, see the &lt;a href=&quot;https://forestry.io/docs/site-configuration/media-uploads/&quot;&gt;documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;front-matter--front-matter-templates&quot;&gt;Front Matter &amp;amp; Front Matter Templates&lt;/h2&gt;
+&lt;p&gt;Forestry works by allowing developers to set up Front Matter Templates for the CMS. These tell the CMS what data to make available to editors when using the CMS, and provides a rich set of interface elements called Front Matter Fields.&lt;/p&gt;
+
+&lt;p&gt;To learn more about Front Matter Templates, see the &lt;a href=&quot;https://forestry.io/docs/site-configuration/front-matter-templates/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;settings&quot;&gt;Settings&lt;/h2&gt;
+&lt;p&gt;The CMS has a variety of configuration options for tailoring the CMS to your needs. These can be configured in Forestry from the settings page. They can also be configured by developers in the repository using the &lt;a href=&quot;https://forestry.io/docs/site-configuration/config-files/&quot;&gt;Forestry’s Config Files&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;https://forestry.io/docs/site-configuration/&quot;&gt;Site Configuration documentation&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h2 id=&quot;hosting&quot;&gt;Hosting&lt;/h2&gt;
+&lt;p&gt;Forestry will build and deploy your site to a variety of static site hosting providers. This is set up from the hosting tab in the settings page of the CMS.&lt;/p&gt;
+
+&lt;p&gt;You can test this with the demo site using &lt;a href=&quot;https://forestry.io/docs/deployment-and-management/deploying-with-github-pages/&quot;&gt;GitHub pages&lt;/a&gt;, &lt;a href=&quot;https://forestry.io/docs/deployment-and-management/deploying-with-s3/&quot;&gt;Amazon S3&lt;/a&gt;, or &lt;a href=&quot;https://forestry.io/docs/deployment-and-management/deploying-your-site-with-ftp/&quot;&gt;FTP&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">Belkirk facilitates showing off many features of Forestry. The following walks you through the Belkirk site, and explains where to go for documentation on each feature!</summary></entry></feed>
