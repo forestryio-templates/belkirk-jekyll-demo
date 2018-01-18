@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: About Belkirk
 date: 2017-11-01 03:00:00 +0000
 banner_image: "/images/banner_2.png"
 heading: About Belkirk
