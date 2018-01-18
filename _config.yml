@@ -1,6 +1,7 @@
 title: Belkirk College of Engineering
 short_title: Belkirk
 description: The Forestry.io Prouct Tour Demo
+baseurl: /belkirk-jekyll-demo/
 collections:
   people:
     title: People
