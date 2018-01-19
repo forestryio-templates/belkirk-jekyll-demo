@@ -11,4 +11,3 @@ menu:
     identifier: _projects
     weight: 2
 ---
-
