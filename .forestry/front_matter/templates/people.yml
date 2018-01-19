@@ -16,9 +16,18 @@ fields:
 - name: role
   label: Departments
   type: list
-  hidden: text
-  default: staff
-  description: 
+  hidden: false
+  default: []
+  description: ''
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - staff
+    - board
+    - advisor
+    - partner
 - name: email
   label: Email
   type: text

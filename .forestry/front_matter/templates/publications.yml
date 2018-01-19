@@ -1,0 +1,39 @@
+---
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+- type: select
+  name: author
+  config:
+    source:
+      type: pages
+      section: people
+  label: Author
+  description: ''
+- name: PDF
+  label: PDF
+  type: file
+  hidden: false
+  description: Provide a PDF of the Publication
+- name: link
+  label: Link
+  type: text
+  hidden: false
+  default: ''
+  description: Used if PDF is not provided
+- type: list
+  name: project
+  label: Project
+  description: 'This publication is associated with which project? '
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: projects
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: text
