@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% comment %}
+  This layout is used by the jekyll-archives plugin to generate
+  tag pages for all tags found in documents
+{% endcomment %}
+
+{% include breadcrumbs.html %}
+
+<h2 class="post_title">{{page.title}}</h2>
+<ul class="posts-list">
+    {% for post in page.posts %}
+    <div class="list-layout">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <div>{{ post.content | truncatewords: 30 }}</div>
+        <date>{{ post.date | date_to_string }}</date>
+    </div>
+    {% endfor %}
+</ul>

@@ -3,7 +3,6 @@ title: Mary-Ann MacSwain
 date: 2016-11-08 00:00:00 +0000
 description: ''
 email: maryanne@belkirkcollege.ca
-layout: person
 linkedin: ''
 role:
 - staff

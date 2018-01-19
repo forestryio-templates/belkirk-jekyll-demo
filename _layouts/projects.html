@@ -1,25 +1,37 @@
 ---
-layout: default-wide
+layout: default
 ---
+{% comment %}
+	This layout is used to by projects.md to display all of documents in 
+	the _projects/ collection
+{% endcomment %}
 
-<div class="grid-layout">
-	<div class="pure-g">
-		{% for project in site.projects %}
-		<div class="pure-u-1 pure-u-md-1-4">
-			<div class="card">
-				<div class="card-header">
-				{% if project.thumbnail and project.thumbnail != "" %}
-				  <img src="{{ project.thumbnail | absolute_url }}" alt="{{ project.title }}">
-				{% else %}
-					<img src="{{ "/images/placeholder.png" | absolute_url }}" alt="{{ project.title }}">
-				{% endif %}
-				</div>
-				<div class="card-body">
-					<h3><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></h3>
-					<p>{{ project.sub-title | slice: 0, 80 }}</p>
+{% include breadcrumbs.html %}
+
+<div class="container pure-g">
+	<div class="pure-u-1">
+		<div class="content">
+			<div class="grid-layout">
+				<div class="container pure-g">
+					{% for project in site.projects %}
+					<div class="pure-u-1 pure-u-md-1-3">
+						<div class="card">
+							<div class="card-header">
+							{% if project.banner_image and project.banner_image != "" %}
+							<img src="{{ project.banner_image | relative_url }}" alt="{{ project.title }}">
+							{% else %}
+								<img src="{{ "/img/placeholder.png" | relative_url }}" alt="{{ project.title }}">
+							{% endif %}
+							</div>
+							<div class="card-body">
+								<h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+								<p>{{ project.sub-title | slice: 0, 80 }}</p>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
 				</div>
 			</div>
 		</div>
-		{% endfor %}
 	</div>
 </div>

@@ -4,7 +4,6 @@ date: 2017-11-14 10:00:44 +0000
 role:
 - partner
 - board
-layout: person
 thumbnail: "/uploads/2017/11/14/filipe-almeida-192048 (1).jpg"
 sub-title: Head of Board
 email: grady@belkirkcollege.com

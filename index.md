@@ -1,7 +1,7 @@
 ---
 title: Home
-banner_image: "/images/banner.png"
-layout: home
+banner_image: "/img/banner.png"
+layout: landing-page
 heading: Belkirk College
 partners:
 - "/uploads/2017/11/13/stem.png"
@@ -21,10 +21,10 @@ description: Belkirk College of Engineering<br>Ora et Labora
 hero_button:
   text: Learn more
   href: "/about"
+show_news: true
 menu:
   navigation:
     identifier: _index
     url: "/"
     weight: 1
 ---
-

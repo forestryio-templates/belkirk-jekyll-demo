@@ -1,6 +1,11 @@
 ---
-layout: default
+layout: page
 ---
+{% comment %}
+	This layout is used by the documents in the _posts/ collection
+{% endcomment %}
+
+{% include breadcrumbs.html %}
 
 <div class="meta">
   {% if page.date %}
@@ -36,7 +41,7 @@ layout: default
             {% if post.thumbnail and post.thumbnail != "" %}
               <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
             {% else %}
-              <img src="{{ "/images/placeholder.png" | relative_url }}" alt="{{ post.title }}">
+              <img src="{{ "/img/placeholder.png" | relative_url }}" alt="{{ post.title }}">
             {% endif %}
             </div>
             <div class="card-body">

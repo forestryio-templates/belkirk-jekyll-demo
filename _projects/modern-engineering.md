@@ -4,13 +4,12 @@ date: 2016-04-20 00:00:00 +0000
 categories: []
 description: 'Computer-Based Training for Cogntive Behavioural Therapy: An Addictions
   Program for Canada'
-thumbnail: "/uploads/2017/11/16/modern-engineering.png"
+banner_image: "/uploads/2017/11/16/modern-engineering.png"
 sub-title: A post-modern taking on Engineering in the Digital World
 tags:
 - engineering
 - research
 slug: ''
-layout: text
 ---
 
 ## Overview

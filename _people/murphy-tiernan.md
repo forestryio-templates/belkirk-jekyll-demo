@@ -4,7 +4,6 @@ date: 2017-11-14 10:47:11 +0000
 role:
 - advisor
 - staff
-layout: person
 thumbnail: "/uploads/2017/11/14/andrew-robles-300868.jpg"
 sub-title: Professor
 email: murphy@belkirkcollege.com

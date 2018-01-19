@@ -1,0 +1,20 @@
+{% comment %}
+    Displays a list of partner logos from a document's front matter
+{% endcomment %}
+
+{% if page.partners %}
+<section class="partners">
+    <div class="container">
+        <h2>Funding Partners</h2>
+        <div class="flexslider">
+            <ul class="slides">
+                {% for logo in page.partners %}
+                    <li>
+                        <img src="{{ logo | relative_url }}" alt="{{ logo }}" />
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+{% endif %}
