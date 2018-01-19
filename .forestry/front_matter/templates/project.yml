@@ -9,10 +9,10 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: thumbnail
-  label: Thumbnail
+- name: banner_image
+  label: Banner Image
   type: file
-  description: Dimensions work best at 800 pixels by 300 pixels
+  description: Dimensions work best at 1200 pixels by 400 pixels
   hidden: false
   default: ''
 - name: tags
