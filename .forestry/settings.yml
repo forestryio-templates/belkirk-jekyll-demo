@@ -7,8 +7,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 collections:
-  _publications:
-    default_front_matter_template: publications
   _projects:
     default_front_matter_template: projects
   _people:

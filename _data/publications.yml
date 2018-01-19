@@ -1,9 +1,11 @@
+---
 - title: 'Bioengineering: A Conceptual Approach'
   date: 2017-09-30 14:43:51 +0000
   PDF: ''
   author: _people/kellie-brewer.md
   layout: default
-  project: _projects/
+  project:
+  - _projects/
   link: https://www.amazon.ca/Bioengineering-Conceptual-Approach-Mirjana-Pavlovic-ebook/dp/B00RZJ8DL2/
 - title: Mechanical Engineering Handbook
   date: 2017-09-30 14:43:51 +0000
@@ -17,4 +19,5 @@
   PDF: "/uploads/2017/11/16/modern-engineering.pdf"
   author: _people/murphy-tiernan.md
   layout: default
-  project: _projects/modern-engineering.md
+  project:
+  - _projects/modern-engineering.md

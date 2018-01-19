@@ -1,0 +1,46 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: true
+    required: true
+- type: datetime
+  name: date
+  label: Publish Date
+- type: text
+  label: Hero Heading
+  name: heading
+  config:
+    required: true
+- type: text
+  name: sub_heading
+  label: Hero Sub Heading
+- type: field_group
+  name: hero_button
+  label: Hero Button
+  fields:
+  - type: text
+    name: text
+    label: Text
+  - type: text
+    name: href
+    label: Link
+- type: file
+  name: banner_image
+  label: Hero Image
+  description: 'Dimensions: 1200px by 580px'
+  config:
+    maxSize: '2'
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: about

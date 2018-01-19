@@ -13,7 +13,6 @@ publish_date: 2017-12-01 04:00:00 +0000
 show_staff: true
 menu:
   navigation:
-    name: About
     identifier: _about
     url: "/about/"
     weight: 2
