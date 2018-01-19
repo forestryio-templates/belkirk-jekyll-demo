@@ -15,7 +15,7 @@
 					{% assign limit = forloop.index | plus: 1 %}
 					{% capture href %}{% for part in parts limit: limit %}{{ part | append: '/' }}{% endfor %}{% endcapture %}
 					<li>
-						<a href="{{ href | relative_url }}">{{ text }}</a>&nbsp;<i class="fa fa-chevron-right"></i>
+						<a href="{{ href | absolute_url }}">{{ text }}</a>&nbsp;<i class="fa fa-chevron-right"></i>
 					</li>
 				{% endif %}
 			{% endfor %}

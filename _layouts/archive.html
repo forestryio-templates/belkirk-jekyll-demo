@@ -11,7 +11,7 @@ layout: default
 <ul class="posts-list">
 {% for post in page.posts %}
   <li>
-    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
 		<div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
   </li>
 {% endfor %}

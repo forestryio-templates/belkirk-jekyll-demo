@@ -1,13 +1,13 @@
 <footer class="site-footer">
 	<div class="container pure-g">
         <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <img src="{{ "/img/logo-white.png" | relative_url }}" alt="" class="footer-logo">
+            <img src="{{ "/img/logo-white.png" | absolute_url }}" alt="" class="footer-logo">
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
             <h3>About {{ site.short_title }}</h3>
             <ul>
             {% for item in site.menus.footer %}
-                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
             {% endfor %}
             </ul>
         </div>
@@ -15,10 +15,10 @@
             <h3>Projects</h3>
             <ul>
             {% for project in site.projects limit:5 %}
-                <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
+                <li><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></li>
             {% endfor %}
             {% if site.projects | size > 5 %}
-                <li><a href="{{ "/projects/" | relative_url }}">See all projects</a></li>
+                <li><a href="{{ "/projects/" | absolute_url }}">See all projects</a></li>
             {% endif %}
             </ul>
         </div>
@@ -28,13 +28,13 @@
         </div>
 	</div>
 	<div class="copyright">
-        <p>&copy;{{ 'now' | date: "%Y" }} {{ site.title }} - All Rights Reserved</p>
         <p>
-			<a href="{{ "/admin" | relative_url }}">Site Admin</a>
+            &copy;{{ 'now' | date: "%Y" }} {{ site.title }} - All Rights Reserved<br>
+			<a href="{{ "/admin" | absolute_url }}">Site Admin</a>
 		</p>
 	</div>
 </footer>
 <!-- Javascript -->
-<script src="{{ "/js/main.js" | relative_url }}" type="text/javascript"></script>
+<script src="{{ "/js/main.js" | absolute_url }}" type="text/javascript"></script>
 </body>
 </html>

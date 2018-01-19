@@ -7,7 +7,7 @@
 <header class="site-header">
   <div class="container">
       <h1 class="logo">
-        <a href="{{ "/" | relative_url }}">{{ site.name }}</a>
+        <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
       </h1>
       <nav class="main-nav">
         <ul class="navigation">
@@ -21,12 +21,12 @@
                 <ul class="second-level">
                   {% for child in child.children %}
                   <li>
-                    <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
                   </li>
                   {% endfor %}
                 </ul>
                 {% endif %}
-                <a href="{{ child.url | relative_url }}"{% if child.target %} target="_blank" {% endif %}>
+                <a href="{{ child.url | absolute_url }}"{% if child.target %} target="_blank" {% endif %}>
                   {{ child.title }}
                   {% if child.childen %}
                     <i class='icon-right-dir-2'></i>
@@ -36,7 +36,7 @@
               {% endfor %}
             </ul>
             {% endif %}
-            <a href="{{ link.url | relative_url }}"{% if link.target %} target="_blank" {% endif %}>
+            <a href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
                   {{ link.title }}
                   {% if link.childen %}
                     <i class='icon-chevron-down'></i>

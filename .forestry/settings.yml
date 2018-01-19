@@ -8,10 +8,10 @@ admin_path: ''
 webhook_url: 
 collections:
   _publications:
-    default_front_matter_template: publications
+    default_front_matter_template: publication
   _projects:
-    default_front_matter_template: projects
+    default_front_matter_template: project
   _people:
-    default_front_matter_template: people
+    default_front_matter_template: person
   _posts:
-    default_front_matter_template: posts
+    default_front_matter_template: post

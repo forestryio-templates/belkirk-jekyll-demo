@@ -21,5 +21,3 @@ Resident Professors Murphy Tiernan and Kelly Brewer have collaborated over the l
 * Edition One - 2016
 
 * Edition Two - 2017
-
-Browse all editions of Modern Engineering on the [publications page](/publications/ "Go to Publications").

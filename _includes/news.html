@@ -18,13 +18,13 @@
                 <ul class="posts">
                     {% for post in site.posts limit:3 %}
                     <li>
-                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
                         <date>{{ post.date | date_to_string }}</date>
                         <date>{{ post.sub-title }}</date>
                     </li>
                     {% endfor %}
                 </ul>
-                <a href="{{ "/posts/" | relative_url }}" class="button-outline pure-button">More News <i class="fa fa-chevron-right"></i></a>
+                <a href="{{ "/posts/" | absolute_url }}" class="button-outline pure-button">More News <i class="fa fa-chevron-right"></i></a>
             </div>
         </div>
     </div>

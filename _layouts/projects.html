@@ -18,13 +18,13 @@ layout: default
 						<div class="card">
 							<div class="card-header">
 							{% if project.banner_image and project.banner_image != "" %}
-							<img src="{{ project.banner_image | relative_url }}" alt="{{ project.title }}">
+							<img src="{{ project.banner_image | absolute_url }}" alt="{{ project.title }}">
 							{% else %}
-								<img src="{{ "/img/placeholder.png" | relative_url }}" alt="{{ project.title }}">
+								<img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ project.title }}">
 							{% endif %}
 							</div>
 							<div class="card-body">
-								<h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+								<h3><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></h3>
 								<p>{{ project.sub-title | slice: 0, 80 }}</p>
 							</div>
 						</div>

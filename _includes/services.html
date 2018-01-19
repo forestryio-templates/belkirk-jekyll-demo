@@ -8,7 +8,7 @@
         {% for item in page.services %}
       <div class="pure-u-1 pure-u-md-1-2">
             <div class="service">
-                <div class="service-icon"><img src="{{ item.icon | relative_url }}" alt=""></div>
+                <div class="service-icon"><img src="{{ item.icon | absolute_url }}" alt=""></div>
                 <h2>{{ item.heading }}</h2>
                 <p>{{ item.description }}</p>
             </div>

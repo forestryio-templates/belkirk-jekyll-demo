@@ -12,7 +12,7 @@ layout: default
 <ul class="posts-list">
     {% for post in page.posts %}
     <div class="list-layout">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
         <div>{{ post.content | truncatewords: 30 }}</div>
         <date>{{ post.date | date_to_string }}</date>
     </div>

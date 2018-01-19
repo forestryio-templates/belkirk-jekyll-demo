@@ -1,5 +1,8 @@
 ---
-hide_body: true
+hide_body: false
+pages:
+- /about.md
+- /index.md
 fields:
 - name: title
   label: Title
