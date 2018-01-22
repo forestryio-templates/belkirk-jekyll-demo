@@ -30,5 +30,5 @@ jekyll-archives:
 gems:
   - jekyll-menus
   - jekyll-feed
-  - jekyll/tagging
+  - jekyll-tagging
   - jekyll-archives
