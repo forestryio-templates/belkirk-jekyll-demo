@@ -1,4 +1,6 @@
 ---
+pages:
+- html-page.md
 hide_body: false
 fields:
 - type: text
