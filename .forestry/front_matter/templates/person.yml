@@ -16,7 +16,7 @@ fields:
 - name: role
   label: Departments
   type: list
-  hidden: false
+  hidden: true
   default: staff
   description: ""
 - name: email
