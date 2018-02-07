@@ -6,7 +6,7 @@
 	<div class="container">
 	{% assign parts = page.url | split: "/" %}
 		<ul>
-			<li><a href="{{ site.baseurl | default "/" }}">Home</a>&nbsp;<i class="fa fa-chevron-right"></i></li>
+			<li><a href="{{ site.baseurl | default: "/" }}">Home</a>&nbsp;<i class="fa fa-chevron-right"></i></li>
 			{% for part in parts offset: 1 %}
 				{% if forloop.last %}
 					<li class="active">{{ page.title }}</li>
