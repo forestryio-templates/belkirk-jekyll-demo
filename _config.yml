@@ -22,13 +22,12 @@ collections:
   projects:
     output: true
     permalink: "/projects/:path/"
-tag_page_layout: tag_page
-tag_page_dir: tag
+# tag_page_layout: tag_page
+# tag_page_dir: tag
 jekyll-archives:
   enabled: all
   layout: "archive"
-plugins:
+gems:
   - jekyll-menus
   - jekyll-feed
   - jekyll-archives
-  - jekyll-tagging
