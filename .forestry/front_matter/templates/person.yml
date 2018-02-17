@@ -4,8 +4,8 @@ fields:
 - type: text
   name: title
   label: Name
-- name: sub-title
-  label: Sub title
+- name: sub_heading
+  label: Sub Heading
   type: text
   hidden: false
   default: ''
