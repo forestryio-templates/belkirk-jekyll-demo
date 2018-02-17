@@ -19,6 +19,9 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: file
+  name: thumbnail
+  label: Thumbnail
 - type: list
   name: related_posts
   label: Related Posts
