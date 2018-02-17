@@ -45,7 +45,7 @@ layout: default
                 <div class="card">
                   <div class="card-header">
                   {% if post.thumbnail and post.thumbnail != "" %}
-                    <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.title }}">
+                    <img src="{{ post.banner_image | absolute_url }}" alt="{{ post.title }}">
                   {% else %}
                     <img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ post.title }}">
                   {% endif %}
