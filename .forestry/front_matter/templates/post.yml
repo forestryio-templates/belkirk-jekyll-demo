@@ -20,7 +20,7 @@ fields:
   hidden: false
   default: ''
 - type: file
-  name: thumbnail
+  name: banner_image
   label: Thumbnail
 - type: list
   name: related_posts
