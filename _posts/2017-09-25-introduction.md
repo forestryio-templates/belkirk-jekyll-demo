@@ -4,7 +4,6 @@ date: 2017-09-25 09:09:13 +0000
 related_posts:
 - _posts/2017-02-12-modern.md
 - _posts/2017-08-01-welcome.md
-- _posts/2017-08-22-research.md
 sub_heading: An introduction to Forestry
 tags:
 - Demo
