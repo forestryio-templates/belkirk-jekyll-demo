@@ -5,7 +5,7 @@ role:
 - advisor
 - staff
 thumbnail: "/uploads/2017/11/14/andrew-robles-300868.jpg"
-sub-title: Professor
+sub_heading: Professor
 email: murphy@belkirkcollege.com
 linkedin: ''
 ---

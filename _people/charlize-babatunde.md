@@ -4,7 +4,7 @@ date: 2017-11-14 10:54:31 +0000
 role:
 - staff
 thumbnail: "/uploads/2017/11/14/william-stitt-162611.jpg"
-sub-title: Administration
+sub_heading: Administration
 email: ''
 linkedin: ''
 ---
