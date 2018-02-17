@@ -19,7 +19,7 @@ layout: default
         <ul class="tags-list">
           {% for tag in page.tags %}
           <li class="inline tag_list_item">
-            <a class="tag_list_link" href="{{ "/tag/" | append: tag | absolute_url }}">{{ tag }}</a>
+            {{ tag }}
             {% if forloop.last == true %}{% else %}
               <span>,</span>
             {% endif %}
