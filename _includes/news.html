@@ -20,7 +20,7 @@
                     <li>
                         <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
                         <date>{{ post.date | date_to_string }}</date>
-                        <date>{{ post.sub-title }}</date>
+                        <date>{{ post.sub_heading }}</date>
                     </li>
                     {% endfor %}
                 </ul>
