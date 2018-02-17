@@ -7,8 +7,9 @@ fields:
   hidden: false
   default: ''
 - type: text
-  label: Sub Title
-  name: sub-title
+  label: Sub Heading
+  name: sub-heading
+  default: asdf
 - name: date
   label: Publish Date
   type: datetime
@@ -21,7 +22,8 @@ fields:
   default: ''
 - type: file
   name: banner_image
-  label: Thumbnail
+  label: Banner Image
+  description: Ideal dimensions 2500px by 1200px
 - type: list
   name: related_posts
   label: Related Posts
