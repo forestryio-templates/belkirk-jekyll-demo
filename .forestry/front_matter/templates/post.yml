@@ -9,7 +9,7 @@ fields:
 - type: text
   label: Sub Heading
   name: sub-heading
-  default: asdf
+  default: ''
 - name: date
   label: Publish Date
   type: datetime
