@@ -5,7 +5,7 @@ related_posts:
 - _posts/2017-02-12-modern.md
 - _posts/2017-08-01-welcome.md
 - _posts/2017-08-22-research.md
-sub-title: An introduction to Forestry
+sub_heading: An introduction to Forestry
 tags: []
 layout: post
 ---
