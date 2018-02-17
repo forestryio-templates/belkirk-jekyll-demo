@@ -11,7 +11,4 @@ menu:
   navigation:
     identifier: _projects
     weight: 3
-  footer:
-    identifier: _projects
-    weight: 2
 ---
