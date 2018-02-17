@@ -27,7 +27,7 @@ tag_page_dir: tag
 jekyll-archives:
   enabled: all
   layout: "archive"
-gems:
+plugins:
   - jekyll-menus
   - jekyll-feed
   - jekyll-archives
