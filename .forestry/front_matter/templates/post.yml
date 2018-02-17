@@ -8,7 +8,7 @@ fields:
   default: ''
 - type: text
   label: Sub Heading
-  name: sub-heading
+  name: sub_heading
   default: ''
 - name: date
   label: Publish Date
