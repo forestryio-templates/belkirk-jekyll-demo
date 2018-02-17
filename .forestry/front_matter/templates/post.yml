@@ -7,8 +7,9 @@ fields:
   hidden: false
   default: ''
 - type: text
-  label: Sub Title
-  name: sub-title
+  label: Sub Heading
+  name: sub_heading
+  default: ''
 - name: date
   label: Publish Date
   type: datetime
@@ -19,6 +20,10 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: file
+  name: banner_image
+  label: Banner Image
+  description: Ideal dimensions 2500px by 1200px
 - type: list
   name: related_posts
   label: Related Posts
