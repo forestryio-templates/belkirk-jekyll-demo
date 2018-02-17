@@ -6,8 +6,11 @@ related_posts:
 - _posts/2017-08-01-welcome.md
 - _posts/2017-08-22-research.md
 sub_heading: An introduction to Forestry
-tags: []
+tags:
+- Demo
+- Test
 layout: post
+banner_image: ''
 ---
 Welcome to the Belkirk College of Engineering Demo Site!
 
