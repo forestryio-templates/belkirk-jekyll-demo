@@ -4,24 +4,6 @@
 
 <nav class="breadcrumbs">
 	<div class="container">
-<<<<<<< HEAD
-	{% assign parts = page.url | split: "/" %}
-		<ul>
-			<li><a href="{{ site.baseurl | default: "/" }}">Home</a>&nbsp;<i class="fa fa-chevron-right"></i></li>
-			{% for part in parts offset: 1 %}
-				{% if forloop.last %}
-					<li class="active">{{ page.title }}</li>
-				{% else %}
-					{% assign text =  part | replace:'-', ' ' | capitalize %}
-					{% assign limit = forloop.index | plus: 1 %}
-					{% capture href %}{% for part in parts limit: limit %}{{ part | append: '/' }}{% endfor %}{% endcapture %}
-					<li>
-						<a href="{{ href | absolute_url }}">{{ text }}</a>&nbsp;<i class="fa fa-chevron-right"></i>
-					</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-=======
 		<div class="pure-u-1">
         <div class="content {% if include.class %}{{ include.class }}{% endif %}">
 					{% assign parts = page.url | split: "/" %}
@@ -42,6 +24,5 @@
 						</ul>
         </div>
     </div>
->>>>>>> 2ac7cf4f42267ff20a112fd29ded3a9fb5d747f3
 	</div>
 </nav>
