@@ -24,9 +24,9 @@
                                 <h3>
                                     <a href="{{ person.url | absolute_url }}">{{ person.title }}</a>
                                 </h3>
-                                {% if person.sub-title %}
+                                {% if person.sub_heading %}
                                 <div class="subtitle">
-                                    {{ person.sub-title }}
+                                    {{ person.sub_heading }}
                                 </div>{% endif %}
                                 <p>
                                     {{ person.content | truncatewords: 25, "...<br><br>Continue reading →" }}

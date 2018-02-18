@@ -8,7 +8,7 @@ role:
 - staff
 - advisor
 slug: ''
-sub-title: Data Analyst
+sub_heading: Research Chair
 tags:
 - radssfdfdsfds fdfasdfd saffdssfd
 thumbnail: "/uploads/2017/11/14/jeffrey-wegrzyn-183858.jpg"

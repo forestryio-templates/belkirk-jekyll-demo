@@ -2,11 +2,11 @@
 layout: default
 ---
 {% comment %}
-	This layout is used to by posts.md to display all of documents in 
+	This layout is used to by posts.md to display all of documents in
 	the _posts/ collection
 {% endcomment %}
 
-{% include breadcrumbs.html %}
+{% include breadcrumbs.html class="content-narrow" %}
 
 {% for post in site.posts %}
 <div class="container pure-g">

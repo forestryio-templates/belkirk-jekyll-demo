@@ -1,10 +1,10 @@
-{% if page.banner_image %}
+{% if page.banner_image and page.banner_image != "" %}
 	<header id="banner" style="background-image: url('{{ page.banner_image | absolute_url }}');">
 		<div class="container pure-g">
 			<div class="pure-u-1 pure-u-md-1">
 				<header class="call-to-action">
 					<h1>{{ page.heading | default: page.title }}</h1>
-					{% if page.sub_heading %}
+					{% if page.sub_heading and page.sub_heading != "" %}
 						<h2>{{ page.sub_heading }}</h2>
 					{% endif %}
 					{% if page.hero_button %}
@@ -40,12 +40,11 @@
 					</div>
 				{% endif %}
 					<h2>{{ page.title }}</h2>
-					{% if page.sub-title and page.sub-title != "" %}
-					<h3>{{ page.sub-title }}</h3>
+					{% if page.sub_heading and page.sub_heading != "" %}
+					<h3>{{ page.sub_heading }}</h3>
 				{% endif %}
 				</div>
 			</div>
 		</div>
 	</header>
 {% endif %}
-	

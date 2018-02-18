@@ -5,7 +5,7 @@ layout: default
 	This layout is used by the documents in the _posts/ collection
 {% endcomment %}
 
-{% include breadcrumbs.html %}
+{% include breadcrumbs.html class="content-narrow" %}
 
 <div class="container pure-g">
   <div class="pure-u-1">
@@ -17,9 +17,12 @@ layout: default
         {% if page.tags.size > 0 %}
         <span class="meta-separator">&bull;</span>
         <ul class="tags-list">
-          {% for tag in page.tags %}
           <li class="inline tag_list_item">
-            <a class="tag_list_link" href="{{ "/tag/" | append: tag | absolute_url }}">{{ tag }}</a>
+						Tags:
+					</li>
+					{% for tag in page.tags %}
+          <li class="inline tag_list_item">
+            {{ tag }}
             {% if forloop.last == true %}{% else %}
               <span>,</span>
             {% endif %}
@@ -41,15 +44,15 @@ layout: default
               <div class="pure-u-1 pure-u-md-1-3">
                 <div class="card">
                   <div class="card-header">
-                  {% if post.thumbnail and post.thumbnail != "" %}
-                    <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.title }}">
+                  {% if post.banner_image and post.banner_image != "" %}
+                    <img src="{{ post.banner_image | absolute_url }}" alt="{{ post.title }}">
                   {% else %}
                     <img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ post.title }}">
                   {% endif %}
                   </div>
                   <div class="card-body">
                     <h3><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h3>
-                    <p>{{ post.sub-title | slice: 0, 80 }}</p>
+                    <p>{{ post.sub_heading | slice: 0, 80 }}</p>
                   </div>
                 </div>
               </div>

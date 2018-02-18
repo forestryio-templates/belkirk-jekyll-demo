@@ -2,7 +2,7 @@
 layout: default
 ---
 {% comment %}
-	This layout is used to by projects.md to display all of documents in 
+	This layout is used to by projects.md to display all of documents in
 	the _projects/ collection
 {% endcomment %}
 
@@ -25,7 +25,7 @@ layout: default
 							</div>
 							<div class="card-body">
 								<h3><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></h3>
-								<p>{{ project.sub-title | slice: 0, 80 }}</p>
+								<p>{{ project.sub_heading | slice: 0, 80 }}</p>
 							</div>
 						</div>
 					</div>

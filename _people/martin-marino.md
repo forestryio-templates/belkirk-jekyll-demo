@@ -4,7 +4,7 @@ date: 2017-11-14 11:08:34 +0000
 role:
 - advisor
 - board
-sub-title: Advisor
+sub_heading: Advisor
 thumbnail: "/uploads/2017/11/14/joseph-gonzalez-399972.jpg"
 email: martin@belkirkcollege.com
 linkedin: ''
