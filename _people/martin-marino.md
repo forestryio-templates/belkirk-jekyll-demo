@@ -1,13 +1,14 @@
 ---
-title: Martin Marino
+title: Test
 date: 2017-11-14 11:08:34 +0000
 role:
 - advisor
 - board
 sub_heading: Advisor
-thumbnail: "/uploads/2017/11/14/joseph-gonzalez-399972.jpg"
+thumbnail: "/uploads/2018/02/26/dodge-small.jpg"
 email: martin@belkirkcollege.com
 linkedin: ''
+layout: person
 ---
 
 Martin Marino joined Belkirk in 2016 as an advisor and member of the Board.
