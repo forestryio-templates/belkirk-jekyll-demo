@@ -28,8 +28,13 @@ fields:
     source:
       type: pages
       section: posts
+  description: This field links to other posts
 - name: layout
   label: Layout
   type: text
   hidden: true
   default: post
+- type: file
+  label: Banner Image
+  name: banner_image
+  description: Wide image at the top of page
