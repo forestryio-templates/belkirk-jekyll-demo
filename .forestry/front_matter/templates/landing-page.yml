@@ -1,5 +1,6 @@
 ---
-hide_body: false
+hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -7,12 +8,6 @@ fields:
   hidden: false
   default: ''
   config:
-    required: true
-- type: textarea
-  name: description
-  label: Description
-  config:
-    wysiwyg: true
     required: true
 - type: text
   label: Hero Heading
@@ -22,6 +17,12 @@ fields:
   name: sub_heading
   label: Hero Sub heading
   default: Engineering and Health Sciences
+- type: file
+  name: banner_image
+  label: Hero Image
+  description: 'Dimensions: 1200px by 580px'
+  config:
+    maxSize: '2'
 - type: field_group
   name: hero_button
   label: Hero Button
@@ -32,12 +33,14 @@ fields:
   - type: text
     name: href
     label: Link
-- type: file
-  name: banner_image
-  label: Hero Image
-  description: 'Dimensions: 1200px by 580px'
+- type: textarea
+  name: textline
+  label: Description
   config:
-    maxSize: '2'
+    wysiwyg: true
+    required: true
+    schema:
+      format: markdown
 - name: services
   label: Services
   type: field_group_list
@@ -75,3 +78,5 @@ fields:
   type: text
   hidden: true
   default: home
+pages:
+- index.md
