@@ -7,6 +7,7 @@ thumbnail: "/uploads/2017/11/14/william-stitt-162611.jpg"
 sub_heading: Administration
 email: ''
 linkedin: ''
+layout: 'person'
 ---
 
 Charlize Babatunde joined Belkirk in 2015 as Head of Administration.

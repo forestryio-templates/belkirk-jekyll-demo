@@ -12,6 +12,7 @@ sub_heading: Research Chair
 tags:
 - radssfdfdsfds fdfasdfd saffdssfd
 thumbnail: "/uploads/2017/11/14/jeffrey-wegrzyn-183858.jpg"
+layout: 'person'
 ---
 
 Mary-Ann MacSwain joined Belkirk in 2016 as a Data Analyst.
