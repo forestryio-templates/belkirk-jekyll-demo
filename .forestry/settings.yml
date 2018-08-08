@@ -1,15 +1,42 @@
 ---
-upload_path: "/uploads/:year:/:month:/:day:"
-frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
-body_file_url_template: "/uploads/:year:/:month:/:day:"
-new_page_extension: html
+new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-collections:
-  _projects:
-    default_front_matter_template: project
-  _people:
-    default_front_matter_template: person
-  _posts:
-    default_front_matter_template: post
+sections:
+- type: document
+  path: _WELCOME.md
+  label: Welcome to Forestry
+- type: heading
+  label: Content
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - posts
+- type: jekyll-pages
+  label: Pages
+  create: all
+  templates:
+  - landing-page
+  - default
+- type: directory
+  path: _people
+  label: People
+  create: all
+  match: "*"
+  templates:
+  - person
+- type: directory
+  path: _projects
+  label: Projects
+  create: all
+  match: "*"
+  templates:
+  - project
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":year:/:month:/:day:/:filename:"
+
