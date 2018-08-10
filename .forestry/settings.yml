@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _WELCOME.md
-  label: Welcome to Forestry
 - type: heading
   label: Content
 - type: jekyll-posts
