@@ -34,7 +34,6 @@ sections:
 - type: document
   path: _data/information.yml
   label: Contact Information
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
