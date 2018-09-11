@@ -32,7 +32,7 @@ sections:
   templates:
   - project
 - type: document
-  path: Data/information.yml
+  path: _data/information.yml
   label: Contact Information
   match: "**/*"
 upload_dir: uploads
