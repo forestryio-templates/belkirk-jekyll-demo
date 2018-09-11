@@ -1,7 +1,7 @@
 ---
-label: information.yml
-hide_body: 
-is_partial: 
+label: contact-information
+hide_body: false
+is_partial: false
 fields:
 - name: email
   label: Email
