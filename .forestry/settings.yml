@@ -14,7 +14,6 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
-  templates:
 - type: directory
   path: _people
   label: People
