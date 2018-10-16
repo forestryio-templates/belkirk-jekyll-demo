@@ -33,3 +33,5 @@ fields:
   hidden: false
   default: ''
   description: Add a publishing date
+pages:
+- contact.md
