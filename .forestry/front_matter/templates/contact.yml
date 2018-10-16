@@ -1,0 +1,35 @@
+---
+label: Contact
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: banner_image
+  label: Banner image
+  type: file
+  hidden: false
+  default: ''
+- name: heading
+  label: Heading
+  type: text
+  hidden: false
+  default: ''
+- name: publish_date
+  label: Publish date
+  type: datetime
+  hidden: false
+  default: ''
+- name: show_staff
+  label: Show staff
+  type: boolean
+  hidden: false
+  default: ''
