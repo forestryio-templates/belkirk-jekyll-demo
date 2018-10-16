@@ -1,35 +1,35 @@
 ---
 label: Contact
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: banner_image
-  label: Banner image
-  type: file
-  hidden: false
-  default: ''
+  description: Add a name for this file
 - name: heading
   label: Heading
   type: text
   hidden: false
   default: ''
+  description: Add the title that is shown on the page
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+  description: Add a date (public)
+- name: banner_image
+  label: Banner image
+  type: file
+  hidden: false
+  default: ''
+  description: Select an image to be shown at the top of your page
 - name: publish_date
   label: Publish date
   type: datetime
   hidden: false
   default: ''
-- name: show_staff
-  label: Show staff
-  type: boolean
-  hidden: false
-  default: ''
+  description: Add a publishing date
