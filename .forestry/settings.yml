@@ -16,6 +16,8 @@ sections:
   create: all
   templates:
   - landing-page
+  - about
+  - contact
   - default
 - type: directory
   path: _people
