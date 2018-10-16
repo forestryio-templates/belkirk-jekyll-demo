@@ -1,20 +1,34 @@
 ---
 label: About
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
+  description: Add a title here (for internal use)
 - name: date
   label: Date
   type: datetime
   hidden: false
   default: ''
+  description: Add a date
+- name: heading
+  label: Heading
+  type: text
+  hidden: false
+  default: ''
+  description: Enter the title shown on the page
 - name: sub_heading
   label: Sub heading
+  type: text
+  hidden: false
+  default: ''
+  description: Add a sub heading
+- name: textline
+  label: Textline
   type: text
   hidden: false
   default: ''
@@ -23,21 +37,14 @@ fields:
   type: file
   hidden: false
   default: ''
+  description: Select the image shown at the top of the page
 - name: layout
   label: Layout
   type: text
-  hidden: false
-  default: ''
-- name: heading
-  label: Heading
-  type: text
-  hidden: false
-  default: ''
-- name: textline
-  label: Textline
-  type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: landing-page
+  config:
+    required: false
 - name: publish_date
   label: Publish date
   type: datetime
