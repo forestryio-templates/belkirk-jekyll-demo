@@ -58,3 +58,5 @@ fields:
   hidden: false
   default: true
   description: Show a list of your staff members
+pages:
+- about.md
