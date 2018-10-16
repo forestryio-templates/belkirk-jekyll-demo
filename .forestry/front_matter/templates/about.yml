@@ -3,18 +3,25 @@ label: About
 hide_body: false
 is_partial: false
 fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: landing-page
+  config:
+    required: false
 - name: title
-  label: Title
+  label: title
   type: text
   hidden: false
-  default: ''
+  default: About
   description: Add a title here (for internal use)
 - name: date
   label: Date
   type: datetime
   hidden: false
   default: ''
-  description: Add a date
+  description: Add a date (public)
 - name: heading
   label: Heading
   type: text
@@ -27,31 +34,27 @@ fields:
   hidden: false
   default: ''
   description: Add a sub heading
-- name: textline
-  label: Textline
-  type: text
-  hidden: false
-  default: ''
 - name: banner_image
   label: Banner image
   type: file
   hidden: false
   default: ''
   description: Select the image shown at the top of the page
-- name: layout
-  label: Layout
+- name: textline
+  label: Textline
   type: text
-  hidden: true
-  default: landing-page
-  config:
-    required: false
+  hidden: false
+  default: ''
+  description: Add a line that is shown underneath the Banner image
 - name: publish_date
   label: Publish date
   type: datetime
   hidden: false
   default: ''
+  description: Add a publish date (dates in the future only show in the preview)
 - name: show_staff
   label: Show staff
   type: boolean
   hidden: false
-  default: ''
+  default: true
+  description: Show a list of your staff members
