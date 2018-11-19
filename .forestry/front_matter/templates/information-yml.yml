@@ -1,0 +1,52 @@
+---
+label: Contact Information
+hide_body: true
+is_partial: false
+fields:
+- name: email
+  label: Email
+  type: text
+  hidden: false
+  default: ''
+- name: phone
+  label: Phone
+  type: text
+  hidden: false
+  default: ''
+- name: address_1
+  label: Address 1
+  type: text
+  hidden: false
+  default: ''
+- name: address_2
+  label: Address 2
+  type: text
+  hidden: false
+  default: ''
+- name: city
+  label: City
+  type: text
+  hidden: false
+  default: ''
+- name: state
+  label: State
+  type: text
+  hidden: false
+  default: ''
+- name: postal_code
+  label: Postal code
+  type: text
+  hidden: false
+  default: ''
+- name: country
+  label: Country
+  type: text
+  hidden: false
+  default: ''
+- name: twitter
+  label: Twitter
+  type: text
+  hidden: false
+  default: ''
+pages:
+- _data/information.yml
