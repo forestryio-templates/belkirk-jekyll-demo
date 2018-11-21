@@ -8,5 +8,8 @@ fields:
   type: text
   hidden: false
   default: post
+- type: datetime
+  name: date
+  label: Date
 pages:
 - _posts/hello-world.md
