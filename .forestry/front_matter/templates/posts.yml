@@ -12,5 +12,6 @@ fields:
   name: date
   label: Date
 pages:
+- _posts/hello-second-life.md
 - _posts/hello-life.md
 - _posts/hello-world.md
