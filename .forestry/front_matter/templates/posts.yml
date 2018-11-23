@@ -12,8 +12,8 @@ fields:
   name: date
   label: Date
 pages:
-- _posts/fourth-life.md
-- _posts/third-life.md
-- _posts/hello-second-life.md
-- _posts/hello-life.md
 - _posts/hello-world.md
+- _posts/hello-life.md
+- _posts/hello-second-life.md
+- _posts/third-life.md
+- _posts/fourth-life.md
