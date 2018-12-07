@@ -10,7 +10,7 @@ sections:
   label: Posts
   create: all
   templates:
-  - posts
+  - post
 - type: jekyll-pages
   label: Pages
   create: all
