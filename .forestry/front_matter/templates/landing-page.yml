@@ -1,5 +1,6 @@
 ---
-hide_body: true
+label: landing-page
+hide_body: false
 is_partial: false
 fields:
 - name: title
@@ -38,7 +39,7 @@ fields:
   label: Description
   config:
     wysiwyg: true
-    required: true
+    required: false
     schema:
       format: markdown
 - name: services
