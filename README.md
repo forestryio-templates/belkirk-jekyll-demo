@@ -4,6 +4,9 @@ A Jekyll demo site for [Forestry CMS](https://forestry.io).
 
 ## Import to Forestry
 
+This project has been pre-configured to work with Forestry, just import your repository ✨
+Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
+
 <p><a href="https://app.forestry.io/quick-start?repo=forestryio-templates/belkirk-jekyll-demo&engine=jekyll">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a></p>
