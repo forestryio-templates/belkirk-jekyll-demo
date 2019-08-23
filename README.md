@@ -11,7 +11,7 @@ Any changes you make will be commited back to the repo, and deployed if you're u
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a></p>
 
-Forestry empowers editors with usable interface to edit Markdown files:
+Forestry empowers editors with a usable interface to edit Markdown, YAML and JSON files:
 
 ![](https://res.cloudinary.com/forestry-demo/image/fetch/c_limit,dpr_auto,f_auto,q_80,w_1205/https://forestry.io/uploads/2018/12/draft-post-editor.png)
 
